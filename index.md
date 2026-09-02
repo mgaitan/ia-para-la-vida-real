@@ -53,8 +53,9 @@ Jornada IA en acción - https://mit.org.ar/
 
 ### [arca-skills](https://github.com/mgaitan/arca-skills/)
 
-Navegar el inframundo del sitio web de Arca
-Usa vercel's [agent-browser](https://agent-browser.dev/)
+- Navegar el inframundo del sitio web de Arca
+- vercel's [agent-browser](https://agent-browser.dev/)
+- resuelve cuits! 
 
 ``` 
 facturar a Lambda Sistemas por 2500 dólares en pesos
@@ -65,7 +66,7 @@ Nota de Crédito de la última factura a Lambda SRL
 
 ### [bip-homebanking-skills](https://github.com/mgaitan/bip-homebanking-skills)
 
-Manejar homebanking del banco provincia
+Manejar homebanking del Banco Provincia
 
 ```
 qué saldo tengo en pesos y dólares.
@@ -96,7 +97,7 @@ Cerrá el cambio de la orden de pago 643213000.
 
 [Agent Client Protocol](https://agentclientprotocol.com/get-started/introduction)
 
-Separar clientes (IDEs, editores, TUIs,) del agente (de "codigo") 
+Separar clientes (IDEs, editores, TUIs,) del agente (de "codigo" u otros).
 
 eg.  Zed <-> ACP <-> codex
 
