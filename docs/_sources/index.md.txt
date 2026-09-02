@@ -6,8 +6,8 @@
 :data-background-opacity: 0.25
 :::
 
-Martín Gaitán / @tin_nqn_<br>
-Jornada IA en acción - https://mit.org.ar/
+Martín Gaitán / [@tin_nqn_](https://x.com/tin_nqn_)<br>
+1º Jornada "IA en acción" - [mit.org.ar](https://mit.org.ar/)
 
 ## Presentación
 
@@ -93,7 +93,7 @@ Cerrá el cambio de la orden de pago 643213000.
 ### PD: Depto en venta, espectacular
 ![](img/cocina.png)
 
-## telegram-acp-bot
+## [telegram-acp-bot](https://github.com/mgaitan/telegram-acp-bot)
 
 [Agent Client Protocol](https://agentclientprotocol.com/get-started/introduction)
 
@@ -113,7 +113,7 @@ eg.  Zed <-> ACP <-> codex
       allowfullscreen>
 </iframe>
 
-## quilombo.life
+## [quilombo.life](http://quilombo.life/)
 
 ![](img/quilombo.png)
 
@@ -137,9 +137,9 @@ Recordá que estos libros estan en el primer estante de la biblioteca
 ## Otros proyectos
 
 - https://markdown.fastapicloud.dev/  
-- [textual-tetris](https://github.com/mgaitan/textual-tetris) como bench para que agentes compitan al tetris
-- https://dictionary.fastapicloud.dev/  <- hago reverse eng de diccionarios
-
+- [textual-tetris](https://github.com/mgaitan/textual-tetris) como bench para que agentes compitan
+- https://dictionary.fastapicloud.dev/  <- hago reverse-eng de diccionarios de idiomas
+- mi ["harness"](https://github.com/mgaitan/python-package-copier-template) para proyectos Python.
 
 ## ¡IÁ cállate, cállate que me desesperas!
 
