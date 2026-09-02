@@ -6,8 +6,8 @@
 :data-background-opacity: 0.25
 :::
 
-Martín Gaitán / @tin_nqn_<br>
-Jornada IA en acción - https://mit.org.ar/
+Martín Gaitán / [@tin_nqn_](https://x.com/tin_nqn_)<br>
+1º Jornada "IA en acción" - [mit.org.ar](https://mit.org.ar/)
 
 ## Presentación
 
