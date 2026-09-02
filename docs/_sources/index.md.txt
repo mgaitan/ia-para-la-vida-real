@@ -136,11 +136,11 @@ Recordá que estos libros estan en el primer estante de la biblioteca
 
 ## Otros proyectos
 
-- https://markdown.fastapicloud.dev/  
+- [markdown.fastapicloud.dev](https://markdown.fastapicloud.dev/)
 - [textual-tetris](https://github.com/mgaitan/textual-tetris) como bench para que agentes compitan
-- https://dictionary.fastapicloud.dev/  <- hago reverse-eng de diccionarios de idiomas
+- [dictionary.fastapicloud.dev](https://dictionary.fastapicloud.dev)  <- hago reverse-eng de diccionarios de idiomas
 - mi ["harness"](https://github.com/mgaitan/python-package-copier-template) para proyectos Python.
 
-## ¡IÁ cállate, cállate que me desesperas!
+## ¡IA cállate, cállate que me desesperas!
 
-Necesito colaboración humana y se aceptan cafecitos/donación de tokens.
+Necesito colaboración humana y se aceptan [ ☕cafecitos](https://cafecito.app/tin_nqn_)/o donación de tokens.
