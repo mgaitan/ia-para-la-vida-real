@@ -93,7 +93,7 @@ Cerrá el cambio de la orden de pago 643213000.
 ### PD: Depto en venta, espectacular
 ![](img/cocina.png)
 
-## telegram-acp-bot
+## [telegram-acp-bot](https://github.com/mgaitan/telegram-acp-bot)
 
 [Agent Client Protocol](https://agentclientprotocol.com/get-started/introduction)
 
@@ -113,7 +113,7 @@ eg.  Zed <-> ACP <-> codex
       allowfullscreen>
 </iframe>
 
-## quilombo.life
+## [quilombo.life](http://quilombo.life/)
 
 ![](img/quilombo.png)
 
