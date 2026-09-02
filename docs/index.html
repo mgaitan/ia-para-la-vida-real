@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html lang="es" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>🛠️ IA para la vida real🍷</title>
+    <link rel="stylesheet" type="text/css" href="_static/revealjs/dist/reveal.css?v=d4488b42" />
+    <link rel="stylesheet" href="_static/revealjs/dist/theme/white.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  </head><body>
+    <div class="reveal">
+        <div class="slides" role="main">
+            <section >
+<section data-background-size="cover" data-background-position="center" data-background-opacity="0.25">
+<h1>🛠️ IA para la vida real🍷</h1>
+<p>Martín Gaitán / &#64;tin_nqn_<br>
+Jornada IA en acción - https://mit.org.ar/</p>
+</section>
+</section>
+<section >
+<section >
+<h2>Presentación</h2>
+<ul class="simple">
+<li><p>Me dicen Tin (aunque soy más bien un plomo)</p></li>
+<li><p>25+ años creando software por gusto y a veces por plata</p></li>
+<li><p>Me sabía PEP8 de memoria.</p></li>
+<li><p>Farmeo <strike>aura</strike> repollos</p></li>
+</ul>
+</section>
+<section >
+<h3></h3>
+<p><img alt="" src="_images/repollo.jpg" /></p>
+</section>
+</section>
+<section >
+<section >
+<h2>El futuro llegó, hace rato</h2>
+<blockquote class="epigraph">
+<div><p>«The goal of the future is full unemployment, so we can play.»
+– Arthur C. Clarke</p>
+</div></blockquote>
+<blockquote class="epigraph">
+<div><p>«El futuro es nuestro, por prepotencia de trabajo»
+– Roberto Arlt</p>
+</div></blockquote>
+</section>
+</section>
+<section >
+<section >
+<h2>No sé lo que quiero, pero lo quiero IA</h2>
+<p><img alt="" src="_images/github_2024.png" />
+<img alt="" src="_images/github_2026.png" /></p>
+</section>
+</section>
+<section >
+<section >
+<h2>Mis proyectos IA</h2>
+<ul class="simple">
+<li><p>skills</p></li>
+<li><p>telegram-acp-bot</p></li>
+<li><p>Quilombo</p></li>
+<li><p>Otros</p></li>
+</ul>
+</section>
+</section>
+<section >
+<section >
+<h2>Skills</h2>
+<ul class="simple">
+<li><p>Prompts reusables empaquetados.</p></li>
+<li><p>Titulo y descripción en header para «indexar»</p></li>
+<li><p>Especializados y aumentados con scripts y recursos</p></li>
+</ul>
+<p><a class="reference external" href="https://agentskills.io/specification"><img alt="" src="_images/skill.png" /></a></p>
+</section>
+<section >
+<h3><a class="reference external" href="https://github.com/mgaitan/arca-skills/">arca-skills</a></h3>
+<p>Navegar el inframundo del sitio web de Arca
+Usa vercel’s <a class="reference external" href="https://agent-browser.dev/">agent-browser</a></p>
+<pre data-id="arca-skills"><code data-trim data-noescape class="default">facturar a Lambda Sistemas por 2500 dólares en pesos
+Hacer Factura E a Ruth Puentes por 514 dólares
+Facturar esta transferencia recibida &lt;captura&gt;
+Nota de Crédito de la última factura a Lambda SRL
+</code></pre>
+</section>
+<section >
+<h3><a class="reference external" href="https://github.com/mgaitan/bip-homebanking-skills">bip-homebanking-skills</a></h3>
+<p>Manejar homebanking del banco provincia</p>
+<pre data-id="bip-homebanking-skills"><code data-trim data-noescape class="default">qué saldo tengo en pesos y dólares.
+¿ya entró una transferencia por 1.320.100 pesos?
+dame los últimos movimientos bancarios
+Listá los créditos de la cuenta en dólares del último mes.
+Buscá débitos entre el 1 y el 15 de agosto.
+¿hay ordenes de Pago del exterior para cerrar?
+Cerrá el cambio de la orden de pago 643213000.
+</code></pre>
+</section>
+<section >
+<h3><a class="reference external" href="https://github.com/mgaitan/freecad-furnitures-skill">freecad-furnitures-skill</a></h3>
+<ul class="simple">
+<li><p>Usa un plugin para dibujar en Freecad</p></li>
+<li><p>Reglas de «oficio».</p>
+<ul>
+<li><p>«mesada estandar a 900mm de alto y 600 de profundidad»</p></li>
+<li><p>«alacena 300 de profundidad»</p></li>
+<li><p>«dejá 2mm de luz entre puertas»</p></li>
+</ul>
+</li>
+<li><p>Scripts: optimizador 2d, enviar pedido, reporte pdf, web, exportar modelos</p></li>
+</ul>
+</section>
+<section >
+<h3></h3>
+<p><img alt="" src="_images/cocina_3d.png" /></p>
+</section>
+<section >
+<h3>PD: Depto en venta, espectacular</h3>
+<p><img alt="" src="_images/cocina.png" /></p>
+</section>
+</section>
+<section >
+<section >
+<h2>telegram-acp-bot</h2>
+<p><a class="reference external" href="https://agentclientprotocol.com/get-started/introduction">Agent Client Protocol</a></p>
+<p>Separar clientes (IDEs, editores, TUIs,) del agente (de «codigo»)</p>
+<p>eg.  Zed &lt;-&gt; ACP &lt;-&gt; codex</p>
+<p><small>naming is hard: hay otro <a class="reference external" href="https://agentcommunicationprotocol.dev/introduction/welcome">ACP</a></small></p>
+</section>
+<section >
+<h3></h3>
+<iframe
+      src="https://www.youtube.com/embed/QvLoZkhAbqA"
+      title="Telegram ACP bot demo"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+</iframe>
+</section>
+</section>
+<section >
+<section >
+<h2>quilombo.life</h2>
+<p><img alt="" src="_images/quilombo.png" /></p>
+<pre data-id="quilombo-life"><code data-trim data-noescape class="default">¿Dónde hay cueritos para canilla de 1/2?
+Recordá que estos libros estan en el primer estante de la biblioteca 
+&lt;fotos&gt;
+</code></pre>
+</section>
+<section >
+<h3>Agente, agente (arresteme pronto)</h3>
+<ul class="simple">
+<li><p>El agente <strong>sabe usar</strong> tu base de datos. Apto para Oscar, mi suegro.</p></li>
+<li><p>Un «chat IA» moderno ya es un <em>agente</em> con acceso a MCP remoto.</p></li>
+<li><p>Ejemplo <a class="reference external" href="https://chatgpt.com/share/6a919489-c738-83e9-8b62-5bbedc6c6872">indexar con fotos via chatgpt</a></p></li>
+<li><p><a class="reference external" href="https://chatgpt.com/share/6a91bc09-dff8-83e9-8344-fdbde36bff76">Buscar libros</a></p></li>
+</ul>
+</section>
+<section >
+<h3>MCP: el «usb-c» de la IA</h3>
+<p><img alt="" src="_images/arch.png" /></p>
+</section>
+</section>
+<section >
+<section >
+<h2>Otros proyectos</h2>
+<ul class="simple">
+<li><p>https://markdown.fastapicloud.dev/</p></li>
+<li><p><a class="reference external" href="https://github.com/mgaitan/textual-tetris">textual-tetris</a> como bench para que agentes compitan al tetris</p></li>
+<li><p>https://dictionary.fastapicloud.dev/  &lt;- hago reverse eng de diccionarios</p></li>
+</ul>
+</section>
+</section>
+<section >
+<section >
+<h2>¡IÁ cállate, cállate que me desesperas!</h2>
+<p>Necesito colaboración humana y se aceptan cafecitos/donación de tokens.</p>
+</section>
+
+        </div>
+    </div>
+    
+    <script src="_static/revealjs/dist/reveal.js"></script>
+    
+    
+      
+    
+    <script>
+        var revealjsConfig = new Object();
+        Object.assign(revealjsConfig, {"hash": true, "slideNumber": true, "transition": "slide", "scrollActivationWidth": null});
+        
+        
+        
+          revealjsConfig.plugins = [
+            
+          ];
+        
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize(revealjsConfig);
+    </script>
+
+  </body>
+</html>

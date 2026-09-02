@@ -1,0 +1,55 @@
+.inline-brand {
+  height: 1em;
+  margin-left: 0.2em;
+  vertical-align: middle;
+  position: relative;
+  top: -0.03em;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.compact {
+  font-size: 0.82em;
+}
+
+.compact ul {
+  line-height: 1.15;
+  margin-top: 0.2em;
+}
+
+.compact li {
+  margin: 0.1em 0;
+}
+
+.compact p {
+  margin-top: 0.35em;
+}
+
+.media-row {
+  align-items: center;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: minmax(0, 72%) minmax(180px, 1fr);
+}
+
+.media-row img {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+
+.media-row p,
+.media-row .aside-note {
+  font-size: 0.9em;
+  line-height: 1.15;
+  margin: 0;
+  text-align: left;
+}
